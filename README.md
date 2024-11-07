@@ -78,7 +78,7 @@ pip install pandas numpy matplotlib scikit-learn seaborn platform tensorflow
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/BhavyaS29/ECG-Anomaly-Detection
+   git clone https://github.com/BhavyaS29/ECG-Anomaly-Detection.git
     ```
 2. **Navigate to the cloned directory and open the Jupyter notebook"**
 
