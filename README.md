@@ -17,7 +17,6 @@ This repository contains a CNN autoencoder trained on the PTBDB dataset to ident
   - [🚀 Usage](#-usage)
   - [📈 Key Findings](#-key-findings)
   - [📝 Notes](#-notes)
-  - [💡 Contributions](#-contributions)
 
 ## 📌 Overview
 This repository demonstrates the use of Convolutional Neural Networks (CNN) based Autoencoders to perform anomaly detection on Electrocardiogram (ECG) data. Given ECG samples of normal and abnormal heart rhythms, the model aims to learn the intrinsic representation of the normal data using an autoencoder, then differentiate between normal and abnormal data based on the reconstruction error.
