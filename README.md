@@ -1,12 +1,6 @@
 # CNN Autoencoder for Anomaly Detection in ECG Data
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![GitHub Stars](https://img.shields.io/github/stars/jorgesandoval/heartbeat-classification-cnn.svg)
-![GitHub Downloads](https://img.shields.io/github/downloads/jorgesandoval/heartbeat-classification-cnn/total.svg)
-![GitHub Forks](https://img.shields.io/github/forks/jorgesandoval/heartbeat-classification-cnn.svg)
-![Alt text](images/ecg.png)
-
- This repository contains a CNN autoencoder trained on the PTBDB dataset to identify abnormal heart rhythms. It employs various loss functions for model optimization and provides comprehensive visualizations of the results.
+This repository contains a CNN autoencoder trained on the PTBDB dataset to identify abnormal heart rhythms. It employs various loss functions for model optimization and provides comprehensive visualizations of the results.
 
 ## 📖 Table of Contents
 - [CNN Autoencoder for Anomaly Detection in ECG Data](#cnn-autoencoder-for-anomaly-detection-in-ecg-data)
@@ -24,9 +18,6 @@
   - [📈 Key Findings](#-key-findings)
   - [📝 Notes](#-notes)
   - [💡 Contributions](#-contributions)
-  - [📜 License](#-license)
-  - [👤 Authors](#-authors)
-  - [🙌 Acknowledgements](#-acknowledgements)
 
 ## 📌 Overview
 This repository demonstrates the use of Convolutional Neural Networks (CNN) based Autoencoders to perform anomaly detection on Electrocardiogram (ECG) data. Given ECG samples of normal and abnormal heart rhythms, the model aims to learn the intrinsic representation of the normal data using an autoencoder, then differentiate between normal and abnormal data based on the reconstruction error.
@@ -88,7 +79,7 @@ pip install pandas numpy matplotlib scikit-learn seaborn platform tensorflow
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/jorgesandoval/heartbeat-classification-cnn.git
+   git clone https://github.com/BhavyaS29/ECG-Anomaly-Detection
     ```
 2. **Navigate to the cloned directory and open the Jupyter notebook"**
 
@@ -110,40 +101,3 @@ These metrics reflect the model's capability in ECG anomaly detection.
 * For best results, adjust hyperparameters like batch size, epochs, or the architecture of the AutoEncoder class.
 *  Ensure GPU support is enabled if available to speed up the training process.
 
-## 💡 Contributions
-
-Contributions to this repository are very welcome! Whether it's fixing bugs, improving the documentation, adding new features, or providing feedback, your insights can help improve this project. Here's how you can contribute:
-
-1. **Fork the Project**
-* Navigate to the main page of the repository.
-* Click on the Fork button on the top right.
-
-2. **Create Your Feature Branch**
-    ```bash
-    git checkout -b feature/AmazingFeature
-    ```
-
-3. **Commit Your Changes**
-    ```bash
-    git commit -m 'Add some AmazingFeature'
-    ```
-4. **Push to the Branch**
-    ```bash
-    git push origin feature/AmazingFeature
-    ```
-5. **Open a Pull Request**
-* Navigate back to the main page of your forked repository.
-* Click on the "Pull requests" tab.
-* Click on the green "New pull request" button.
-
-
-## 📜 License
-
-Distributed under the MIT License. See [LICENSE](https://opensource.org/licenses/MIT) for more information.
-
-## 👤 Authors
-* [Jorge Sandoval](https://www.linkedin.com/in/jorge-g-sandoval/)
-
-## 🙌 Acknowledgements
-
-Acknowledgment is extended to Mohammad Kachuee, Shayan Fazeli, and Majid Sarrafzadeh for their work, "ECG Heartbeat Classification: A Deep Transferable Representation." as documented in arXiv preprint arXiv:1805.00794 (2018).
